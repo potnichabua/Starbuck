@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Starbucks</title>
+	<link href="css/style.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Merriweather" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
+	 <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css">
+	 <link rel="stylesheet" href="css/swiper.min.css">
+<body>
+</head>
+<body onload="myFunction()" style="margin:0;">
+<div class="container" >
+	
+	<div id="loader" style="display:block;">
+		<div class="img">
+		<img src="img/logo.png">
+		</div>
+	</div>
+	<div id="loader2" > 
+	<div class="img2">
+			<div id="floatingBarsG" id="loader2">
+			loading
+				<div class="blockG" id="rotateG_01"></div>
+				<div class="blockG" id="rotateG_02"></div>
+				<div class="blockG" id="rotateG_03"></div>
+				<div class="blockG" id="rotateG_04"></div>
+				<div class="blockG" id="rotateG_05"></div>
+				<div class="blockG" id="rotateG_06"></div>
+				<div class="blockG" id="rotateG_07"></div>
+				<div class="blockG" id="rotateG_08"></div>
+			</div>
+			</div>
+	</div>
+	
+	<div style="display:none;" id="container-text" class="animate-text">
+		<div class="Bar-top">
+			<div class="txet-top">
+				<h1>My  Cards</h1>
+			</div>
+		</div>
+		
+		<div class="Bar-2">
+			<div class="txet-2">
+				<i class="fa fa-star"></i>
+				<h2 class="green">Green lavel</h2>
+				<p class="stars">STARS YOU'VE EARNED</p>
+				<h2 class="num101">101</h2>
+				<p class="title-star">Your membership expiry date is 2017-03-29 <br>49 more Starts to reach Gold level.</p>
+			</div>
+			<a class="butRewards" href="benefits.html">
+             <span class="Rewards">Rewards</span></a>
+		</div><!-- Bar-2 -->
+
+		<div class="cards">
+			<!-- Swiper -->
+<a href="Cards.html" id="touch" style="width: 50px; margin-top: 50px; margin-left: 100px; position: relative;"><img src="img/touch.png"></a>
+    		<div class="swiper-container">
+      	  		<div class="swiper-wrapper">
+        			<img class="swiper-slide" src="img/card-01.png">
+        			<img class="swiper-slide" src="img/card-02.png">
+        			<!-- <img class="swiper-slide" src="img/card-03.png"> -->
+        			<img class="swiper-slide" src="img/card-04.png" >
+        		</div>
+        		
+    		</div>
+
+    		<!-- Swiper JS -->
+    		<script src="js/swiper.min.js"></script>
+
+    		<!-- Initialize Swiper -->
+    		<script>
+    		var swiper = new Swiper('.swiper-container', {
+        		pagination: '.swiper-pagination',
+        		slidesPerView: 1.2,
+        		centeredSlides: true,
+        		paginationClickable: true,
+        		// spaceBetween: 30
+    		});
+    		</script>
+		
+		</div>
+	  	<br>
+		<div class="text-3">
+			<h1>Bath 205.00</h1>
+			<br>
+			<p>As of 2017-02-25 15.45</p>
+		</div>
+		<div class="text-4">
+			<h1>Registered</h1>
+			<br>
+			<p>6080152025222222</p>
+		</div>
+		
+		<br>
+		<a class="btnMa" href="#" data-role="pop" data-position="fixed" data-theme="d" rel="external">
+             <span class="Ma">Manage</span></a>
+
+            <ul data-role="listview" data-theme="c" style="display:none;" id="pop">
+	            <li><a href="#" rel="external">Refresh Balance</a>
+	            </li>
+	            <li><a href="#" rel="external">Transaction History</a>
+	            </li>
+	            <li><a href="#" rel="external">Cancel</a>
+	            </li>
+        	</ul>
+
+
+        <a class="btnAdd" href="#">
+             <span class="Add">Add a Card</span></a>
+	
+	<footer class="footer">
+	<div class="footlist">
+		<div class="icon-bar"><a href="#" style="text-decoration: none;" >
+			<i class="fa fa-home"></i>
+				<p>HOME</p></a>
+		</div>
+	</div>
+	<div class="footlist2" id="active">
+		<div class="icon-bar"><a href="#" style="text-decoration: none;">
+			<i class="fa  fa-credit-card"></i>
+				<p>CARDS</p></a>
+		</div>
+	</div>
+	<div class="footlist">
+		<div class="icon-bar"><a href="#" style="text-decoration: none;">
+			<i class="fa fa-glass"></i>
+				<p>STORES</p></a>
+		</div>
+	</div>
+
+	<div class="footlist">
+		<div class="icon-bar"><a href="#" style="text-decoration: none;">
+			<i class="fa fa-comments-o"></i>
+				<p class="p2">MESSAGES</p></a>
+		</div>
+	</div>
+	<div class="footlist">
+		<div class="icon-bar"><a href="#" style="text-decoration: none;">
+			<i class="fa fa-ellipsis-h"></i>
+				<p>MORE</p></a>
+		</div>
+	</div>
+</footer>
+
+
+
+	</div><!-- animate-text -->
+
+</div> <!-- container -->
+		
+		<script>
+			var myVar;
+
+			function myFunction() {
+			    myVar = setTimeout(showPage, 2000);
+			}
+
+			function showPage() {
+			  document.getElementById("loader").style.display = "none";
+		
+			 document.getElementById("container-text").style.display = "block";
+			}
+		</script>
+
+<!-- slide -->
+
+</body>
+</html>

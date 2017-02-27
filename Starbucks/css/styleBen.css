@@ -1,0 +1,42 @@
+@font-face {
+    font-family: FontAwesome;
+    src: url('font-awesome/font/fontawesome-webfont.eot');
+    src: url('font-awesome/font/fontawesome-webfont.eot?') format('embedded-opentype'),
+         url('font-awesome/font/fontawesome-webfont.woff') format('woff'),
+         url('font-awesome/font/fontawesome-webfont.ttf') format('truetype');
+}
+@media only screen and (min-width: 320px){
+.container2 {
+  height: 100%;
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+  z-index: 99999;
+  background: rgba(102,102,102,1);
+  background: -moz-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(43,43,43,1) 26%, rgba(38,38,38,1) 32%, rgba(0,0,0,1) 78%, rgba(19,19,19,1) 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, rgba(102,102,102,1)), color-stop(0%, rgba(89,89,89,1)), color-stop(0%, rgba(44,44,44,1)), color-stop(0%, rgba(71,71,71,1)), color-stop(26%, rgba(43,43,43,1)), color-stop(32%, rgba(38,38,38,1)), color-stop(78%, rgba(0,0,0,1)), color-stop(100%, rgba(19,19,19,1)));
+  background: -webkit-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(43,43,43,1) 26%, rgba(38,38,38,1) 32%, rgba(0,0,0,1) 78%, rgba(19,19,19,1) 100%);
+  background: -o-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(43,43,43,1) 26%, rgba(38,38,38,1) 32%, rgba(0,0,0,1) 78%, rgba(19,19,19,1) 100%);
+  background: -ms-radial-gradient(center, ellipse cover, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(43,43,43,1) 26%, rgba(38,38,38,1) 32%, rgba(0,0,0,1) 78%, rgba(19,19,19,1) 100%);
+  background: radial-gradient(ellipse at center, rgba(102,102,102,1) 0%, rgba(89,89,89,1) 0%, rgba(44,44,44,1) 0%, rgba(71,71,71,1) 0%, rgba(43,43,43,1) 26%, rgba(38,38,38,1) 32%, rgba(0,0,0,1) 78%, rgba(19,19,19,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#666666', endColorstr='#131313', GradientType=1 );
+}
+.txet-top i{
+	display: block;
+	font-size: 24px;
+	float: left;
+	color: #fff;
+	margin-top: 35px;
+	margin-left: 24px;
+}
+.box-1{
+	background-image: url(../img/box-2.png);
+	position: absolute;
+	width: 100%;
+	height: 667px;
+	background-color: #000;
+}
+}
